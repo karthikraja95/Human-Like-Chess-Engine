@@ -23,3 +23,14 @@ based on Predictive + Upper Bound Tree Search
 (modification of UCB 1).
 AlphaZero has been reimplemented in the open source
 Leela Chess project
+
+## Supervised Training
+
+- All games from database.lichess.org
+- Using 432,335,939 games as a training set extracted games
+between similar ELO players
+- 22,971,939 as a holdout for later use
+used ranges of 100 to segregate the training data
+-  During training 10% was held out to get a training error
+-  Training error quickly converged to 30% on all runs, while
+MSE slowly decreased
