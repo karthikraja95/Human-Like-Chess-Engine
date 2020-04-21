@@ -17,11 +17,11 @@ sensitivity
 
 ## Reinforcement Learning Chess Engines
 
-AlphaZero - Neural Network that evaluates on it’s
+-  AlphaZero - Neural Network that evaluates on it’s
 own, and uses the network to do a tree search
 based on Predictive + Upper Bound Tree Search
 (modification of UCB 1).
-AlphaZero has been reimplemented in the open source
+- AlphaZero has been reimplemented in the open source
 Leela Chess project
 
 ## Supervised Training
